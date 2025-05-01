@@ -22,7 +22,7 @@ Rotes:-
 
 user-
 /createuser : POST - create new user account
-/loginuser : POST - Log into an existing account
+/loginuser : POST - Log into an existing account [adhaar card + password]
 
 user profile-
 /userprofile : GET - get the user's profile info
@@ -35,7 +35,7 @@ voting-
 vote count-
 /vote/counts: GET - get the list of candidates sorted by their vote counts
 
-admin-
+admin- by default views the list of candidates
 /candidates: POST - Create a new candidate.
 /candidates/:candidateId: PUT - Update an existing candidate.
 /candidates/:candidateId: DELETE - Delete a candidate from the list.
